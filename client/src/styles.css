@@ -1,0 +1,27 @@
+.grid {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 10px;
+    height: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .cell.alive {
+    background-color: #000;
+  }
+  
+  .cell.owned {
+    background-color: blue; /* Different color for cells owned by the player */
+  }
+  
+  .player-info {
+    margin-bottom: 20px;
+  }
